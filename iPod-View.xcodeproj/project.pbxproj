@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		7BEEDBFB2A2A2B030004C73D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEDBFA2A2A2B030004C73D /* AppDelegate.swift */; };
-		7BEEDBFD2A2A2B030004C73D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEDBFC2A2A2B030004C73D /* SceneDelegate.swift */; };
 		7BEEDBFF2A2A2B030004C73D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEDBFE2A2A2B030004C73D /* ViewController.swift */; };
-		7BEEDC022A2A2B030004C73D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEEDC002A2A2B030004C73D /* Main.storyboard */; };
 		7BEEDC042A2A2B040004C73D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BEEDC032A2A2B040004C73D /* Assets.xcassets */; };
-		7BEEDC072A2A2B040004C73D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BEEDC052A2A2B040004C73D /* LaunchScreen.storyboard */; };
+		7BEEDC0F2A2A2B5F0004C73D /* iPodScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEDC0E2A2A2B5F0004C73D /* iPodScreenView.swift */; };
+		7BEEDC112A2A2D9C0004C73D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEDC102A2A2D9C0004C73D /* Extensions.swift */; };
+		7BEEDC132A2A30700004C73D /* iPodButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEDC122A2A30700004C73D /* iPodButtonsView.swift */; };
+		7BEEDC152A2A32250004C73D /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEDC142A2A32250004C73D /* SelectButton.swift */; };
+		7BEEDC412A2B19700004C73D /* iPodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BEEDC402A2B19700004C73D /* iPodView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7BEEDBF72A2A2B030004C73D /* iPod-View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPod-View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BEEDBFA2A2A2B030004C73D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7BEEDBFC2A2A2B030004C73D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7BEEDBFE2A2A2B030004C73D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7BEEDC012A2A2B030004C73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7BEEDC032A2A2B040004C73D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7BEEDC062A2A2B040004C73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7BEEDC082A2A2B040004C73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BEEDC0E2A2A2B5F0004C73D /* iPodScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPodScreenView.swift; sourceTree = "<group>"; };
+		7BEEDC102A2A2D9C0004C73D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7BEEDC122A2A30700004C73D /* iPodButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPodButtonsView.swift; sourceTree = "<group>"; };
+		7BEEDC142A2A32250004C73D /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		7BEEDC402A2B19700004C73D /* iPodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPodView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +61,13 @@
 			isa = PBXGroup;
 			children = (
 				7BEEDBFA2A2A2B030004C73D /* AppDelegate.swift */,
-				7BEEDBFC2A2A2B030004C73D /* SceneDelegate.swift */,
+				7BEEDC0E2A2A2B5F0004C73D /* iPodScreenView.swift */,
+				7BEEDC402A2B19700004C73D /* iPodView.swift */,
 				7BEEDBFE2A2A2B030004C73D /* ViewController.swift */,
-				7BEEDC002A2A2B030004C73D /* Main.storyboard */,
+				7BEEDC122A2A30700004C73D /* iPodButtonsView.swift */,
+				7BEEDC142A2A32250004C73D /* SelectButton.swift */,
+				7BEEDC102A2A2D9C0004C73D /* Extensions.swift */,
 				7BEEDC032A2A2B040004C73D /* Assets.xcassets */,
-				7BEEDC052A2A2B040004C73D /* LaunchScreen.storyboard */,
 				7BEEDC082A2A2B040004C73D /* Info.plist */,
 			);
 			path = "iPod-View";
@@ -125,9 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BEEDC072A2A2B040004C73D /* LaunchScreen.storyboard in Resources */,
 				7BEEDC042A2A2B040004C73D /* Assets.xcassets in Resources */,
-				7BEEDC022A2A2B030004C73D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +142,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BEEDC412A2B19700004C73D /* iPodView.swift in Sources */,
+				7BEEDC132A2A30700004C73D /* iPodButtonsView.swift in Sources */,
+				7BEEDC0F2A2A2B5F0004C73D /* iPodScreenView.swift in Sources */,
 				7BEEDBFF2A2A2B030004C73D /* ViewController.swift in Sources */,
+				7BEEDC152A2A32250004C73D /* SelectButton.swift in Sources */,
 				7BEEDBFB2A2A2B030004C73D /* AppDelegate.swift in Sources */,
-				7BEEDBFD2A2A2B030004C73D /* SceneDelegate.swift in Sources */,
+				7BEEDC112A2A2D9C0004C73D /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		7BEEDC002A2A2B030004C73D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BEEDC012A2A2B030004C73D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7BEEDC052A2A2B040004C73D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7BEEDC062A2A2B040004C73D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7BEEDC092A2A2B040004C73D /* Debug */ = {
@@ -292,7 +281,6 @@
 				INFOPLIST_FILE = "iPod-View/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +308,6 @@
 				INFOPLIST_FILE = "iPod-View/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
